@@ -1,0 +1,5 @@
+# Paths env_guard should never scan (same syntax as .gitignore).
+# Nothing is needed here for this repo: the tests build their fake secrets
+# from string pieces at runtime, so no secret-looking literal is ever on disk.
+# Example for a project with recorded fixtures:
+# tests/fixtures/
